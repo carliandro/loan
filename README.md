@@ -27,4 +27,4 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 - O desenvolvimento em Microservicos é benéfico pois tem custos reduzidos de desenvolvimento e manutenção e também é de fácil reutilização em outros projetos.
 - A aplicacao usara o Player Amazon Web Services para .
 
-<img width="400" src="pantorepay.jpg" />
+<img width="400" src="architecture.jpg" />
