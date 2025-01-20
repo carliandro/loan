@@ -26,3 +26,5 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 - O framework Springboot utiliza uma abordagem baseada em Arquitetura de Microservicos. 
 - O desenvolvimento em Microservicos é benéfico pois tem custos reduzidos de desenvolvimento e manutenção e também é de fácil reutilização em outros projetos.
 - A aplicacao usara o Player Amazon Web Services para .
+
+<img width="400" src="teste.jpg" />
