@@ -106,5 +106,5 @@ Sera utilizado o GitLab CI para garantir uma esteira de entrega automattizada da
 - Garanttir que sejam realizados testes automatizados para avaliar o comportamento da aplicacao nos cacsos testados, assim garantindo que o comportamento da aplicacao esteja como o esperado.
 - Criar os casos de testes para que os mesmos sejam implementados em ferramentas, como o Selenium, e executados. Dessa formas teremos o report de execucao e comportamento da aplicacao.
 ## Multi A-Z
-- De acordo com o crescimento de usuarios em diversos paises, a aplicacao ira neccessitar esta disponivel em outras zonas para manter a performance desejada para os usuarios. Com esta premissa, sera necessario distribuir a aplicacao em diferentes zonas e com o CloudFront redirecionando para a Zona mais proxima de acordo com a origem da requisicao.
+- De acordo com o crescimento de usuarios em diversos paises, a aplicacao ira neccessitar estar disponivel em outras zonas para manter a performance desejada para os usuarios. Com esta premissa, sera necessario distribuir a aplicacao em diferentes zonas e com o CloudFront redirecionando para a Zona mais proxima de acordo com a origem da requisicao.
 
