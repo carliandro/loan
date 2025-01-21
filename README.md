@@ -47,4 +47,4 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 
 ## Escalabilidade
 
--  Apos as metricas coletadas a partir dos paineis AWS e Grafana a estrategia configuracao do Auto Scaling sera de forma horizontal para garantir a alta disponibilidade de acordo com o Pico de uso do Sistema identificado pelos testes de estresse. Dessa forma a alta disponibilidade estara garantida.
+-  Apos as metricas coletadas a partir dos paineis AWS e Grafana a estrategia de configuracao do Auto Scaling sera de forma horizontal para garantir a alta disponibilidade de acordo com o Pico de uso do Sistema identificado pelos testes de estresse. Dessa forma a alta disponibilidade estara garantida.
