@@ -44,3 +44,7 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 -  O Circuit Breaker funciona como um disjuntor, monitorando a comunicação entre os serviços e interrompendo temporariamente a comunicação com os serviços que estão com problemas.
 
 <img width="600" height="400" src="circuit-breaker.png" />
+
+## Escalabilidade
+
+-  Apos as metricas coletadas a partir dos paineis AWS e Grafana a estrategia configuracao do Auto Scaling sera de forma horizontal para garantir a alta disponibilidade de acordo com o Pico de uso do Sistema identificado pelos testes de estresse. Dessa forma a alta disponibilidade estara garantida.
