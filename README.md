@@ -27,7 +27,7 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 - O desenvolvimento em Microservicos é benéfico pois tem custos reduzidos de desenvolvimento e manutenção e também é de fácil reutilização em outros projetos.
 - A aplicacao usara o Player Amazon Web Services para .
 
-<img width="800" height="600" src="pantore.png" />
+<img width="600" height="400" src="pantore.png" />
 
 ## Tolerancia a Falhas
 
@@ -43,4 +43,4 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 - Aumenta a resiliência: O Circuit Breaker aumenta a resiliência do sistema, permitindo que ele continue disponível mesmo que algum serviço pare de responder. 
 -  O Circuit Breaker funciona como um disjuntor, monitorando a comunicação entre os serviços e interrompendo temporariamente a comunicação com os serviços que estão com problemas.
 
-<img width="800" height="600" src="circuit-breaker.png" />
+<img width="600" height="400" src="circuit-breaker.png" />
