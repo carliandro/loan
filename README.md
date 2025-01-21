@@ -48,3 +48,7 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 ## Escalabilidade
 
 -  Apos as metricas coletadas a partir dos paineis AWS e Grafana a estrategia de configuracao do Auto Scaling sera de forma horizontal para garantir a alta disponibilidade de acordo com o Pico de uso do Sistema identificado pelos testes de estresse. Dessa forma a alta disponibilidade estara garantida.
+
+## Cache
+
+- Sera utilizado o AWS ElasticCache para reduzir custos de banco de dados.  Dessa forma garantimos a melhora do desempenho da aplicacao, aumento o rendimento e diminuicao da latência, e melhorar a performance do banco de dados e das aplicações.
