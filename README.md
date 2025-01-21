@@ -31,6 +31,7 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 
 ## Autenticacao
 - A autenticacao se dara atraves de mecanismos oferecidos pelo Player AWS
+- Serao utilizadas funcoes lambdas de PreToken e RefreshToken para garantir a resiliencia da autenticacao
 
 <img width="400" height="400" src="auth.jpg" />
 
