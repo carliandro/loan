@@ -29,6 +29,11 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 
 <img width="600" height="400" src="pantore.png" />
 
+## Autenticacao
+- A autenticacao se dara atraves de mecanismos oferecidos pelo Player AWS
+
+<img width="600" height="400" src="pantore.png" />
+
 ## Tolerancia a Falhas
 
 - Circuit Breaker
