@@ -69,3 +69,42 @@ Caso o sistema principal falhe, as requisicoes sao direcionadas para o sistema d
 
 Tao logo o sistema principal esteja novamente funcional, sera executado o failback
 
+## Versionamento
+
+- A aplicaccao sera versionada em um repositorio Git e seguindo as praticas de Gitflow.
+- Brancches bem definidas para cada etapa do desenvolvimento, por exemplo:
+  - Brach Main: Branch imutavel por commit. Esta branch somente e alimentada por merges realizados de Dev.
+  - Branch Dev: Branch onde sao desenvolvidas as novas funcionalidades do sistemas
+  - Branch Test: Branch especifica para realizacao dos testes automatizado
+  - Featue Branch: Uma nova branch e criada a partir da branch dev para o desenvolvimento de uma funcionalidade
+  - BugFix Branch: Branch criada a partir de uma Feature Branch dev para que o Bug seja corrigido
+  - Hotfix: Branch exclusiva para solucionar problemas em producao.
+
+## CI/CD
+
+Sera utilizado o GitLab CI para garantir uma esteira de entrega automattizada da aplicacao. Dessa forma teremos os seguites ganhos:
+
+- Aumento da qualidade e confiabilidade dos lançamentos de software
+- Redução de erros humanos
+- Melhoria da colaboração entre equipes
+- Aceleração do ciclo de desenvolvimento
+- Melhoramento da produtividade
+- Redução de riscos
+- Entrega mais rápida de novos recursos e atualizações
+- Facilidade de reversão de alterações de código
+- Visualização do status de cada ambiente e implantação
+- Testes de desempenho e gerenciamento de incidentes
+- Rastreio da velocidade de entrega da organização
+- Revisões de código mais rápidas
+
+## Code Review
+
+- Cada membro da equipe de desenvolvimento esta apto a realizar o code review
+- Caso alguma inconformidade com as melhores praticas de desenvolvimento seja identificada, sera discutida e solicitada a mudanca de abordagem da implementacao ou correcao da mesma
+
+## Testes Automatizados
+- Garanttir que sejam realizados testes automatizados para avaliar o comportamento da aplicacao nos cacsos testados, assim garantindo que o comportamento da aplicacao esteja como o esperado.
+- Criar os casos de testes para que os mesmos sejam implementados em ferramentas, como o Selenium, e executados. Dessa formas teremos o report de execucao e comportamento da aplicacao.
+## Multi A-Z
+- De acordo com o crescimento de usuarios em diversos paises, a aplicacao ira neccessitar esta disponivel em outras zonas para manter a performance desejada para os usuarios. Com esta premissa, sera necessario distribuir a aplicacao em diferentes zonas e com o CloudFront redirecionando para a Zona mais proxima de acordo com a origem da requisicao.
+
