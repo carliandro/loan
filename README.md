@@ -32,7 +32,7 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 ## Autenticacao
 - A autenticacao se dara atraves de mecanismos oferecidos pelo Player AWS
 
-<img width="600" height="400" src="auth.jpg" />
+<img width="600" height="200" src="auth.jpg" />
 
 ## Tolerancia a Falhas
 
