@@ -52,3 +52,20 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 ## Cache
 
 - Sera utilizado o AWS ElasticCache para reduzir custos de banco de dados.  Dessa forma garantimos a melhora do desempenho da aplicacao, aumento o rendimento e diminuicao da latência, e melhorar a performance do banco de dados e das aplicações.
+
+## Failover e Backup
+
+- Monitorar continuamente os componentes do sistema
+- Definir os cenários de carga que serão simulados
+- Criar perfis de tráfego baseados em dados históricos
+- Executar testes de stress e carga
+- Identificar gargalos na infraestrutura
+
+Com as informacoes em maos apos a aplicacao das diretivas acima, sera utilizada a seguinte abordagem:
+
+Failover ativo-passivo: O sistema de backup permanece inativo até que o sistema principal falhe 
+
+Caso o sistema principal falhe, as requisicoes sao direcionadas para o sistema de backup.
+
+Tao logo o sistema principal esteja novamente funcional, sera executado o failback
+
