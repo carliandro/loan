@@ -28,3 +28,19 @@ A arquitetura utilizada no projeto será baseada em microsserviços. Microsservi
 - A aplicacao usara o Player Amazon Web Services para .
 
 <img width="800" height="600" src="pantore.png" />
+
+## Tolerancia a Falhas
+
+- Circuit Breaker
+
+- Recuperação mais rápida: O Circuit Breaker permite que o serviço com problema se recupere, o que pode levar a uma recuperação mais rápida. 
+
+- Melhor experiência do usuário: O Circuit Breaker evita que o aplicativo trave, permitindo que os usuários recebam uma resposta rápida ou uma mensagem alternativa. 
+
+- Gestão de recursos: O Circuit Breaker evita que o sistema continue tentando alcançar um serviço indisponível, economizando recursos. 
+
+- Evita falhas em cascata: O Circuit Breaker evi ta que uma falha em um serviço se propague para outros serviços, evitando um efeito dominó. 
+- Aumenta a resiliência: O Circuit Breaker aumenta a resiliência do sistema, permitindo que ele continue disponível mesmo que algum serviço pare de responder. 
+-  O Circuit Breaker funciona como um disjuntor, monitorando a comunicação entre os serviços e interrompendo temporariamente a comunicação com os serviços que estão com problemas.
+
+<img width="800" height="600" src="circuit-breaker.png" />
